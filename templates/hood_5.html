@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>BlackMöbius_whitesky_nolabel</title>
+  </head>
+  <body>
+    <div class="white_sky_hood_nolabel">
+      <img src="../static/hood/hood_5.png" alt="" class="white_sky_hood_nolabel_front" width="550" height="650"/>
+      <img src="../static/hood/hood_5_back.png" alt="" class="white_sky_hood_nolabel_back" width="550" height="650"/>
+    </div>
+    <a class = "main_label" href="http://172.16.101.169:9900/shop" style="color:black">BlackMöbius</a>
+    <a class = "text_1" style="color:black">White Sky Hood Nolabel</a>
+    <a class = "text_price" style="color:black">￦160,000</a>
+    <a class = "text_2" style ="color: black">Color : White</a>
+    <a class = "text_3" style ="color: black">Designed By kiju</a>
+    <button class = "buy_button" type= "button" style = "color: white">Buy</button>
+    <button class = "shopping_button" type = "button" style = "color: white">Shopping cart</button>
+    <a class = "change_image" style = "color: black"> change image ↑</a>
+  </body>
+  <style>
+    body {
+      box-sizing: border-box;
+      font-family: Consolas, monospace;
+      background-color: rgb(246, 246, 246);
+    }
+    img {
+      max-width: 120%;
+    }
+    .main_label {
+      position: absolute;
+      left: 690px;
+      top: 30px;
+      font-size: 30px;
+    }
+    .white_sky_hood_nolabel {
+      position: absolute;
+      left: 120px;
+      top: 130px;
+      width: 500px;
+      margin: 0px auto;
+    }
+    .white_sky_hood_nolabel_back {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: none;
+    }
+    .white_sky_hood_nolabel:hover .white_sky_hood_nolabel_back {
+      display: block;
+    }
+    .white_sky_hood_nolabel_back {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      opacity: 0;
+      transition: opacity 0.5s linear;
+      }
+    .white_sky_hood_nolabel:hover .white_sky_hood_nolabel_back {
+      opacity: 1;
+      }
+      .text_1 {
+        position: absolute;
+        left:990px;
+        top:130px;
+        font-family: 'Song Myung', serif;
+        font-size: 30px;
+        }
+      .text_price {
+        position: absolute;
+        left:1100px;
+        top:175px;
+        font-family: 'Song Myung', serif;
+        font-size: 23px;
+        }
+    .text_2 {
+        position: absolute;
+        left:990px;
+        top:280px;
+        font-family: 'Song Myung', serif;
+        font-size:20px;
+    }
+    .text_3 {
+        position: absolute;
+        left:990px;
+        top: 330px;
+        font-family: 'Song Myung', serif;
+        font-size:20px;
+
+    }
+    .change_image {
+      position: absolute;
+      left: 320px;
+      top: 800px;
+      font-size:20px;
+    }
+    .buy_button {
+    position: absolute;
+    left:990px;
+    top: 370px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 110px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: gray;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+
+    .shopping_button {
+    position: absolute;
+    left:990px;
+    top: 470px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 75px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: gray;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    .shopping_button:hover {
+      background-color: rgb(173, 173, 173);
+
+    }
+
+    .buy_button:hover {
+        background-color: rgb(173, 173, 173);
+    }
+
+    .buy_button:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+  </style>
+</html>
